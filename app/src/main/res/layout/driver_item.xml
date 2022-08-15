@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_driver_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/iv_driver"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            tools:ignore="ImageContrastCheck"
+            tools:src="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/cv_driver_image"
+        android:text="@string/driver_name"
+        android:textAppearance="@style/bus_number" />
+
+    <TextView
+        android:id="@+id/tv_bus_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_driver_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/cv_driver_image"
+        android:text="@string/ab_344_gpf"
+        android:textAppearance="@style/bus_number" />
+
+
+</RelativeLayout>

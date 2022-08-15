@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="411dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_group_2"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62.5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome_text"
+        android:textAppearance="@style/user_welcome_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cv_btn_start"
+        app:layout_constraintStart_toStartOf="@+id/cv_btn_start"
+        app:layout_constraintTop_toBottomOf="@+id/iv_background" />
+
+    <TextView
+        android:id="@+id/tv_welcome_info"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="sans-serif"
+        android:maxWidth="300dp"
+        android:text="@string/welcome_text_info"
+        android:textAppearance="@style/welcome_text_info"
+        app:layout_constraintBottom_toTopOf="@+id/cv_btn_start"
+        app:layout_constraintEnd_toEndOf="@+id/cv_btn_start"
+        app:layout_constraintStart_toStartOf="@+id/tv_welcome"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:elevation="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/btn_start"
+                android:layout_width="325dp"
+                android:layout_height="86dp"
+                android:background="@drawable/rectangle_6"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_start"
+                android:textAppearance="@style/start"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btn_start"
+                app:layout_constraintStart_toStartOf="@+id/btn_start"
+                app:layout_constraintTop_toTopOf="@+id/btn_start" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
