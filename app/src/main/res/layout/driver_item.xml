@@ -11,6 +11,7 @@
         android:id="@+id/cv_driver_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         app:cardCornerRadius="15dp">
 
         <ImageView
@@ -18,7 +19,7 @@
             android:layout_width="55dp"
             android:layout_height="50dp"
             android:scaleType="centerCrop"
-            tools:ignore="ImageContrastCheck"
+            android:contentDescription="ignore"
             tools:src="@tools:sample/avatars" />
     </androidx.cardview.widget.CardView>
 

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_top_background"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bottom_background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_login_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="516dp"
+        android:text="@string/login_main"
+        android:textAppearance="@style/login_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_login_fio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_fio"
+        android:textAppearance="@style/login_fio"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cv_fio"
+        app:layout_constraintStart_toStartOf="@+id/cv_fio" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_fio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:layout_marginBottom="410dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_fio"
+            android:layout_width="325dp"
+            android:layout_height="45dp"
+            android:autofillHints="name"
+            android:inputType="text"
+            android:background="@drawable/ic_rectangle_6_1"
+            android:hint="@string/driver_name"
+            android:maxLines="@integer/material_motion_duration_short_1"
+            android:paddingStart="14dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_grey"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintStart_toStartOf="@id/cv_fio"
+        app:layout_constraintTop_toBottomOf="@id/cv_fio">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_phone"
+            android:layout_width="325dp"
+            android:layout_height="45dp"
+            android:autofillHints="name"
+            android:inputType="phone"
+            android:background="@drawable/ic_rectangle_6_1"
+            android:hint="@string/phone"
+            android:maxLines="@integer/material_motion_duration_short_1"
+            android:paddingStart="14dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_grey"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_login_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_phone"
+        android:textAppearance="@style/login_fio"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cv_phone"
+        app:layout_constraintStart_toStartOf="@+id/cv_phone" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintStart_toStartOf="@id/cv_phone"
+        app:layout_constraintTop_toBottomOf="@id/cv_phone">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="325dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_rectangle_6_1"
+            android:textColorHint="@color/text_grey"
+            app:boxBackgroundColor="@color/text_grey"
+            app:boxStrokeColor="@color/text_grey"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/text_grey">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_rectangle_6_1"
+                android:textColor="@color/black"
+                android:paddingStart="14dp"
+                android:hint="@string/login_password"
+                android:textColorHint="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_password"
+        android:textAppearance="@style/login_fio"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cv_password"
+        app:layout_constraintStart_toStartOf="@+id/cv_password" />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/start_btn"
+        android:layout_width="325dp"
+        android:layout_height="86dp"
+        android:backgroundTint="@color/green_btn"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_password" >
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/start"
+            android:text="@string/btn_start"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

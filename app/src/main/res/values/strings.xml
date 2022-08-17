@@ -5,7 +5,14 @@
     <string name="driver_title">Ваши коллеги сейчас на маршруте </string>
     <string name="driver_name">Иванов Иван Иванович </string>
     <string name="btn_back_to_map">Вернуться к карте </string>
-    <string name="btn_start">НАЧАТЬ</string>
+    <string name="btn_start">НАЧАТЬ ></string>
     <string name="welcome_text">Добро пожаловать! </string>
+    <string name="login_main">Введите свои данные </string>
+    <string name="login_fio">ФИО </string>
+    <string name="login_phone">Номер телефона </string>
+    <string name="phone">+996 551 123 456</string>
+    <string name="route_info">Ваш маршрут: 2</string>
+    <string name="colleagues_list_btn">Ваши коллеги</string>
+    <string name="login_password">Пароль </string>
     <string name="welcome_text_info">В этом приложении вы сможете видеть, где в реальном времени проезжает нужная вам маршрутка. </string>
 </resources>

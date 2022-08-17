@@ -13,7 +13,10 @@
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/ic_group.xml" value="0.187" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/ic_group_2.xml" value="0.187" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.187" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/ic_splash_icon.xml" value="0.2075" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/icon.xml" value="0.187" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/icon_splash.xml" value="0.2075" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/illustration.xml" value="0.187" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/line_10.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/line_11.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/line_12.xml" value="0.119" />
@@ -30,6 +33,7 @@
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/rectangle_9.xml" value="0.195" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/some_id.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/something.xml" value="0.187" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/splash_screen.xml" value="0.2075" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/vector_10.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/vector_11.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/vector_3.xml" value="0.119" />
@@ -40,11 +44,15 @@
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/vector_8.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/drawable/vector_9.xml" value="0.119" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/font/roboto_regular.xml" value="0.2833333333333333" />
-        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout-v23/login_fragment.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/activity_main.xml" value="0.136" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/colleague_list_bottom_sheet.xml" value="0.264" />
-        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/driver_item.xml" value="0.4" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/driver_item.xml" value="0.264" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/driver_map_display.xml" value="0.264" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/drivers_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/info_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/login_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/layout/start_fragment.xml" value="0.2" />
         <entry key="..\:/Users/User/Desktop/Don/Work/Presentations/Android projects/TestBusTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.187" />
       </map>
